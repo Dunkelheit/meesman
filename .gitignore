@@ -41,3 +41,6 @@ jspm_packages
 
 # Export data
 meesman.csv
+
+# Environment variables
+docker-compose-variables.env
