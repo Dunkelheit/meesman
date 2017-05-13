@@ -1,0 +1,29 @@
+{
+  "name": "meesman",
+  "version": "0.0.1",
+  "description": "Tool to track my investments in Meesman Indexbeleggen",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dunkelheit/meesman.git"
+  },
+  "author": "Arturo Martinez <dunkelheit@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dunkelheit/meesman/issues"
+  },
+  "homepage": "https://github.com/Dunkelheit/meesman#readme",
+  "dependencies": {
+    "bunyan": "^1.8.10",
+    "cheerio": "^0.22.0",
+    "convict": "^3.0.0",
+    "fast-csv": "^2.4.0",
+    "moment": "^2.18.1",
+    "numeral": "^2.0.6",
+    "request": "^2.81.0"
+  }
+}

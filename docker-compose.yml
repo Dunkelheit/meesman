@@ -1,0 +1,7 @@
+version: '2'
+services:
+  crawler:
+    env_file:
+      - docker-compose-variables.env
+    build: .
+
